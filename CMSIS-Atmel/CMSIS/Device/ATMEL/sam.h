@@ -163,6 +163,9 @@
 #define SAMD51G19A ( \
     part_is_defined( SAMD51G19A ) )
 
+#define SAMD51J18A ( \
+    part_is_defined( SAMD51J18A ) )
+
 #define SAMD51J19A ( \
     part_is_defined( SAMD51J19A ) )
 
@@ -186,7 +189,7 @@
 #define SAMD21_SERIES (SAMD21J17 || SAMD21G17A || SAMD21E15B || SAMD21E15 || SAMD21E16 || SAMD21E17 || SAMD21E18 || SAMD21E16B || SAMD21J15 || SAMD21J16 || SAMD21G16 || SAMD21G17 || SAMD21G18A || SAMD21G15 || SAMD21G18 || SAMD21J18)
 
 /* Entire SAMD51 series */
-#define SAMD51_SERIES (SAMD51G18A || SAMD51G19A || SAMD51J19A || SAMD51J20A || SAMD51N19A || SAMD51N20A || SAMD51P19A || SAMD51P20A)
+#define SAMD51_SERIES (SAMD51G18A || SAMD51G19A || SAMD51J18A || SAMD51J19A || SAMD51J20A || SAMD51N19A || SAMD51N20A || SAMD51P19A || SAMD51P20A)
 
 /* Entire SAMD family */
 #define SAMD_SERIES (SAMD10_SERIES || SAMD11_SERIES || SAMD21_SERIES || SAMD51_SERIES)
@@ -344,6 +347,22 @@
 /* Entire SAME51 series */
 #define SAME51_SERIES (SAME51G18A || SAME51G19A || SAME51J18A || SAME51J19A || SAME51J20A || SAME51N19A || SAME51N20A)
 
+/* SAME51 series */
+#define SAME54N19A ( \
+     part_is_defined( SAME54N19A ) )
+
+#define SAME54N20A ( \
+     part_is_defined( SAME54N20A ) )
+
+#define SAME54P19A ( \
+     part_is_defined( SAME54P19A ) )
+
+#define SAME54P20A ( \
+     part_is_defined( SAME54P20A ) )
+
+/* Entire SAME54 series */
+#define SAME54_SERIES (SAME54N19A || SAME54N20A || SAME54P19A || SAME54P20A)
+
 /* SAME70 series */
 #define SAME70N1 ( \
     part_is_defined( SAME70N19 ) )
@@ -370,7 +389,7 @@
 #define SAME70_SERIES (SAME70N1 || SAME70N2 || SAME70J1 || SAME70J2 || SAME70Q1 || SAME70Q2)
 
 /* Entire SAME family */
-#define SAME_SERIES (SAME51_SERIES || SAME70_SERIES)
+#define SAME_SERIES (SAME51_SERIES || SAME54_SERIES || SAME70_SERIES)
 
 /*
  * ----------------------------------------------------------------------------

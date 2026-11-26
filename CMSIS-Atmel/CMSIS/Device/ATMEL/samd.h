@@ -139,6 +139,8 @@
 #include "samd51/include/samd51.h"
 #elif defined (__SAMD51G19A__)
 #include "samd51/include/samd51.h"
+#elif defined (__SAMD51J18A__)
+#include "samd51/include/samd51.h"
 #elif defined (__SAMD51J19A__)
 #include "samd51/include/samd51.h"
 #elif defined (__SAMD51J20A__)
